@@ -1,0 +1,34 @@
+{
+  "name": "@stdlib/stats-ztest2",
+  "version": "0.0.0",
+  "description": "Two-sample z-Test.",
+  "license": "Apache-2.0",
+  "type": "module",
+  "main": "./index.mjs",
+  "homepage": "https://stdlib.io",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stdlib-js/stats-ztest2.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stdlib-js/stdlib/issues"
+  },
+  "keywords": [
+    "stdlib",
+    "stdmath",
+    "statistics",
+    "stats",
+    "mathematics",
+    "math",
+    "summary",
+    "test",
+    "hypothesis",
+    "mean",
+    "normal",
+    "two-sample"
+  ],
+  "funding": {
+    "type": "patreon",
+    "url": "https://www.patreon.com/athan"
+  }
+}
