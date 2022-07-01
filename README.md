@@ -24,14 +24,30 @@ limitations under the License.
 
 > Two-sample z-Test.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/stats-ztest2
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import ztest2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-ztest2@deno/mod.js';
+var ztest2 = require( '@stdlib/stats-ztest2' );
 ```
 
 #### ztest2( x, y, sigmax, sigmay\[, opts] )
@@ -142,7 +158,7 @@ table = out.print();
 To test whether the difference in the population means is equal to some other value than `0`, set the `difference` option.
 
 ```javascript
-var normal = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-normal' ).factory;
+var normal = require( '@stdlib/random-base-normal' ).factory;
 
 var rnorm = normal({
     'seed': 372
@@ -196,8 +212,8 @@ var table = out.print();
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import rnorm from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-normal@deno/mod.js';
-import ztest2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-ztest2@deno/mod.js';
+var rnorm = require( '@stdlib/random-base-normal' );
+var ztest2 = require( '@stdlib/stats-ztest2' );
 
 var table;
 var out;
@@ -254,7 +270,7 @@ console.log( table );
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -310,6 +326,7 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 [deno-url]: https://github.com/stdlib-js/stats-ztest2/tree/deno
 [umd-url]: https://github.com/stdlib-js/stats-ztest2/tree/umd
 [esm-url]: https://github.com/stdlib-js/stats-ztest2/tree/esm
+[branches-url]: https://github.com/stdlib-js/stats-ztest2/blob/main/branches.md
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/stats-ztest2/main/LICENSE
 
@@ -319,7 +336,7 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/stats/ztest]: https://github.com/stdlib-js/stats-ztest/tree/deno
+[@stdlib/stats/ztest]: https://github.com/stdlib-js/stats-ztest
 
 <!-- </related-links> -->
 
