@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import ztest2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-ztest2@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/stats-ztest2/tags). For example,
+
+```javascript
 import ztest2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-ztest2@v0.2.2-deno/mod.js';
 ```
 
@@ -208,7 +213,7 @@ var table = out.print();
 
 ```javascript
 import rnorm from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-normal@deno/mod.js';
-import ztest2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-ztest2@v0.2.2-deno/mod.js';
+import ztest2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-ztest2@deno/mod.js';
 
 var table;
 var out;
