@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-04-05)
+## Unreleased (2026-04-12)
 
 <section class="issues">
 
@@ -24,6 +24,7 @@ This release closes the following issue:
 
 <details>
 
+-   [`e88fed7`](https://github.com/stdlib-js/stdlib/commit/e88fed78fbf6aaf1043cb4489e3af510007b5dd0) - **bench:** refactor to use string interpolation in `@stdlib/stats` [(#11396)](https:-/github.com/stdlib-js/stdlib/pull/11396) _(by Karan Anand)_
 -   [`7a2753c`](https://github.com/stdlib-js/stdlib/commit/7a2753c3f3fda3dc93da993421d16a650e631c3d) - **chore:** fix JavaScript lint errors [(#11199)](https://github.com/stdlib-js/stdlib/pull/11199) _(by Kartikeya-guthub)_
 
 </details>
@@ -36,8 +37,9 @@ This release closes the following issue:
 
 ### Contributors
 
-A total of 1 person contributed to this release. Thank you to this contributor:
+A total of 2 people contributed to this release. Thank you to the following contributors:
 
+-   Karan Anand
 -   Kartikeya-guthub
 
 </section>
